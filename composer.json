@@ -1,5 +1,5 @@
 {
-    "name": "reedware/openapi-generator",
+    "name": "reedware/openapi-client-generator",
     "description": "Generates HTTP API Clients based on JSON Scheam / OpenAPI specs",
     "keywords": [
         "open",
