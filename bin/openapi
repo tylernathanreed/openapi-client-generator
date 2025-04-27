@@ -1,0 +1,14 @@
+#!/usr/bin/env php
+<?php
+
+use Reedware\OpenApi\Kernel;
+use Symfony\Component\Console\Input\ArgvInput;
+use Symfony\Component\Console\Output\ConsoleOutput;
+
+$autoloader = require __DIR__ . '/../vendor/autoload.php';
+
+$kernel = new Kernel(realpath(__DIR__ . '/../../../'));
+
+$status = $kernel->handle($input = new ArgvInput, new ConsoleOutput);
+
+exit($status);
