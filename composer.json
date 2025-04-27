@@ -14,15 +14,9 @@
         }
     ],
     "license": "MIT",
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../openapi-client"
-        }
-    ],
     "require": {
         "php": "^8.1",
-        "reedware/openapi-client": "*"
+        "reedware/openapi-client": "dev-master"
     },
     "require-dev": {
         "laravel/pint": "^1.20",
